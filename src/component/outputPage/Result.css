@@ -1,0 +1,30 @@
+.resultPage {
+  display: flex;
+}
+.quizComplete {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: green;
+}
+
+.result_container {
+  display: flex;
+  padding: 2em;
+  margin: 3rem;
+  width: 80%;
+  flex-direction: column;
+  border: solid 2px gray;
+}
+
+.resulttext {
+  border-bottom: solid 2px gray;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.resultData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

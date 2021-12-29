@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.welcomeText {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.totalTimetext {
+  font-size: larger;
+  margin: 2em;
+}
+
+.startButton {
+  background-color: green;
+  text-decoration: none;
+  padding: 0.5em 2em 0.5em 2em;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.startButton :hover {
+  background-color: rgba(218, 223, 218, 0.397);
+}

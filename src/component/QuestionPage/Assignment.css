@@ -1,0 +1,59 @@
+.middle_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.timer {
+  color: red;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.button {
+  background-color: green;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 20% 40%;
+}
+
+.disable {
+  background-color: gray;
+}
+.submit {
+  margin-top: 5%;
+  padding: 1% 5% !important;
+  cursor: pointer;
+  background-color: rgba(38, 38, 207, 0.863);
+  color: white;
+}
+
+.assignment {
+  border: solid 2px gray;
+  width: 50%;
+  height: 50%;
+  padding: 3em;
+  border-radius: 10px;
+}
+.questions {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.resultPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+}
